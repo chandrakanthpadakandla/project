@@ -1,0 +1,9 @@
+<div class="card" style="width: 20em;">
+  <div class="card-body">
+    <h3 class="card-title">{{track.name}}</h3>
+    <img src="img_avatar.png" alt="Link:" style="width:100%">
+    <a class="card-text" href="{{track.url}}"> View it ---> </a><br>
+    <button class="btn btn-md bg-secondary" (click)="addSong(track)">Add to playlist</button>
+    <button class="btn btn-md bg-secondary" (click)="viewDetails(track)">View details</button>
+  </div>
+</div>
